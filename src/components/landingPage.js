@@ -30,7 +30,7 @@ export default class LandingPage extends Component {
               <p>
                 {" "}
                 React | Vanilla JavaScript | HTML/CSS | NodeJs | Express |
-                jQuery{" "}
+                jQuery | JSON | postgreSQL {" "}
               </p>
 
               <div className="social-links">
@@ -63,18 +63,18 @@ export default class LandingPage extends Component {
                 justifyContent:"center",
                 margin: "0"
               }}>
-            <h1> Recent Projects </h1>
+            <h1 className="recent-projects-title"> Recent Projects </h1>
             <p className="take-a-look"><Link to="/projects"> Link to all Projects</Link></p>
             <div className="card-container">
-                <Card
+            <Card
+                  className="card"
                   shadow={0}
-                  style={{ 
-                    width: "auto", 
-                    height: "320px",
-                    marginBottom: "15px", 
-                    marginLeft:"15%", 
-                    marginRight: "15%"
-                  }}
+                  style={{
+                  height: "320px", 
+                  margin: "auto", 
+                  marginBottom: "15px",
+                  
+                }}
                 >
                   <CardTitle
                     expand
@@ -99,14 +99,10 @@ export default class LandingPage extends Component {
                   className="card"
                   shadow={0}
                   style={{
-                  width: "auto", 
                   height: "320px", 
                   margin: "auto", 
                   marginBottom: "15px",
-                  marginLeft: "15%", 
-                  marginRight: "15%",
-                  width: "auto",
-                  height: "320px"
+              
                 }}
                 >
                   <CardTitle
@@ -131,13 +127,11 @@ export default class LandingPage extends Component {
                 <Card
                   className="card"
                   shadow={0}
-                  style={{ 
-                    width: "auto", 
+                  style={{     
                     height: "320px", 
                     margin: "auto", 
                     marginBottom: "15px",
-                    marginLeft:"15%", 
-                    marginRight: "15%"
+                   
                   }}
                 >
                   <CardTitle

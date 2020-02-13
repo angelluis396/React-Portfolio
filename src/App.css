@@ -202,11 +202,16 @@ u {
 .resume-container {
   background: black;
 }
+
 li.tech-skils-li {
   font-size: 15px;
   color: #fff;
   padding-left: 30px;
 }
+p.user-info-year {
+  color: #fff;
+}
+
 
 /* About Me Page Styles */
 @media only screen 
@@ -275,10 +280,11 @@ and (max-device-width : 568px) {
     margin: 20px;
   }
   div.mdl-grid {
-    height: auto;
-    
+    height: auto; 
   }
-  
+  h1.recent-projects-title {
+    font-size: 20px ;
+  }
  .projects-container {
    display: flex;
  }
@@ -319,5 +325,34 @@ and (max-device-width : 568px) {
   }
   .mdl-list__item{
     text-align: center;
+  }
+  h3.edu-title {
+    text-align: center;
+  }
+  .edu-subtitle {
+    text-align: center;
+  }
+  ul.school-ul {
+    padding-left: 20px;
+  }
+  ul.tech-skills-ul {
+    padding: 0;
+  }
+  h5.edu-subtitle {
+    margin-left: 15%;
+    font-size: 15px;
+  }
+  h3.tech-title {
+    font-size: 18px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  h2.tech-sec-title {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  p.user-info-year {
+    text-align: center;
+    color: #fff;
   }
 }

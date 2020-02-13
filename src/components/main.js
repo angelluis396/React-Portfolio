@@ -4,7 +4,6 @@ import LandingPage from "./landingPage"
 import AboutMe from "./aboutMe"
 import Resume from "./resume"
 import Projects from "./projects"
-import Contact from "./contact"
 
 const Main = () => (
   <Switch>
@@ -12,7 +11,6 @@ const Main = () => (
     <Route exact path="/aboutMe" component={AboutMe} />
     <Route exact path="/resume" component={Resume} />
     <Route exact path="/projects" component={Projects} />
-    <Route exact path="/contact" component={Contact} />
   </Switch>
 )
 

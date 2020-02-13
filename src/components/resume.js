@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import bitCropped from '../Images/bitCropped.png'
 
 export default class Resume extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign : 'center'}}>
               <img 
-                src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"
+                src={bitCropped}
                 alt="avatar"
                 style={{height: "200px"}}
               />  
@@ -26,9 +27,9 @@ export default class Resume extends Component {
 
             <hr style={{borderTop: '3px solid white'}} />
             <div className="contact-info">
-              <h5> City</h5>
+              <u><h5> Location </h5></u>
                 <p className="user-info"> Lawrenceville, New Jersey </p>
-              <h5> Email </h5>
+              <u><h5> Email </h5></u>
                 <p className="user-info"> ala31996@gmail.com </p>
                 <a href="https://docs.google.com/document/d/17F-g3AdyceOmDp5YTiVo0L0lCvoPHyLNX5JCXZbVyX0/edit?usp=sharing"><h5> Link to Professional Resume </h5></a>
             </div>  
@@ -48,7 +49,7 @@ export default class Resume extends Component {
                 endYear={2020}
                 schoolName="THINKFUL"
                 degreeDesc="Engineering Immersion"
-                schoolDescription={<ul>
+                schoolDescription={<ul className="school-ul">
                   <li> 
                     Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.
                   </li> 
@@ -62,8 +63,8 @@ export default class Resume extends Component {
                 startYear={2014}
                 endYear={2018}
                 schoolName="Rider University"
-                degreeDesc="Bachelor's Degree in Criminal Justice with a concentration in Law."
-                schoolDescription={<ul>
+                degreeDesc="Bachelor's Degree in Criminal Justice"
+                schoolDescription={<ul className="school-ul">
                   <li> 
                     Member of Tau Kappa Epsilon
                   </li> 
@@ -73,17 +74,17 @@ export default class Resume extends Component {
                 </ul>}
               />
             <hr style={{borderTop: '3px solid white'}}/>
-              <h2> Technical Skills </h2>
-                  <ul className="tech-skills-ul"> 
-                    <h3> Front-End: </h3> 
+              <h2 className="tech-sec-title"> Technical Skills </h2>
+                  <ul style={{listStyle: "none"}} className="tech-skills-ul"> 
+                    <h3 className="tech-title"> Front-End: </h3> 
                       <li className="tech-skils-li"> React </li>
                       <li className="tech-skils-li"> Vanilla JavaScript </li>
                       <li className="tech-skils-li"> HTML & CSS </li>
                       <li className="tech-skils-li"> jQuery </li>
                       <li className="tech-skils-li"> Redux </li>
                   </ul>
-                  <ul className="tech-skills-ul">
-                    <h3> Back-End: </h3>
+                  <ul style={{listStyle: "none"}} className="tech-skills-ul">
+                    <h3 className="tech-title"> Back-End: </h3>
                       <li className="tech-skils-li"> Node </li>
                       <li className="tech-skils-li"> Express </li> 
                       <li className="tech-skils-li"> PostgreSQL </li>
@@ -91,9 +92,9 @@ export default class Resume extends Component {
                       <li className="tech-skils-li"> RESTFUL API </li>
                       <li className="tech-skils-li"> Ruby </li>
                   </ul>
-                  <ul className="tech-skills-ul"> 
-                    <h3> Development Tools & Methods </h3>
-                      <li className="tech-skils-li"> - Git </li>
+                  <ul style={{listStyle: "none"}} className="tech-skills-ul"> 
+                    <h3 className="tech-title"> Development Tools & Methods: </h3>
+                      <li className="tech-skils-li"> Git </li>
                       <li className="tech-skils-li"> GitHub </li>
                       <li className="tech-skils-li"> Heroku </li>
                       <li className="tech-skils-li"> Zeit </li>
