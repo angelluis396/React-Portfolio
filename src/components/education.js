@@ -10,7 +10,8 @@ export default class Education extends Component {
             <p className="user-info"> {this.props.startYear} - {this.props.endYear} </p>
           </Cell>
           <Cell col={8}>
-            <h4 style={{marginTop: '0px'}}> {this.props.schoolName} </h4>
+            <u><h3 style={{marginTop: '0px'}}> {this.props.schoolName} </h3></u>
+            <i><h5 style={{marginTop: '0px', fontWeight:"300"}}> {this.props.degreeDesc} </h5></i>
             <p className="user-info"> {this.props.schoolDescription} </p>
           </Cell>
         </Grid>

@@ -13,15 +13,15 @@ export default class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          <div className="projects-box">
-            <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+          {/* Project 1 */}
+            <Card classname="projects-card" shadow={5} style={{minWidth:'450', margin:'auto'}}>
               <CardTitle 
               style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
               >
                 Fitpad 
               </CardTitle>
               <CardText> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. Tech:  React.js, JSON, Node.js, PostgreSQL, Express, CSS.
               </CardText>
               <CardActions border>
                 <Button colored > GitHub </Button>
@@ -31,8 +31,27 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-          </div>
-          <div className="projects-box">
+          
+          {/* Project 2 */}
+
+          <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+              <CardTitle 
+              style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
+              >
+                Spanish Spaced Repitition 
+              </CardTitle>
+              <CardText> 
+                
+              </CardText>
+              <CardActions border>
+                <Button colored > GitHub </Button>
+                <Button colored > Live Demo </Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* Project 3 */}
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
               <CardTitle 
                 style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
@@ -50,7 +69,24 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-          </div>
+            {/* Project 4 */}
+            <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+              <CardTitle 
+              style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
+              >
+                Frenmo
+              </CardTitle>
+              <CardText> 
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </CardText>
+              <CardActions border>
+                <Button colored > GitHub </Button>
+                <Button colored > Live Demo </Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
         </div>
         
         
@@ -58,7 +94,7 @@ export default class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-          <div className="projects-box">
+          
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
               <CardTitle 
                 style={{
@@ -70,7 +106,7 @@ export default class Projects extends Component {
                 Sharkmarks 
               </CardTitle>
               <CardText> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Designed and developed a bookmarking application that keeps track of your favorite websites.Tech:  jQuery, HTML, CSS, REST API.
               </CardText>
               <CardActions border>
                 <Button colored > GitHub </Button>
@@ -80,10 +116,9 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-          </div>
+          
 
           
-          <div className="projects-box">
             <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
               <CardTitle 
               style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
@@ -91,7 +126,7 @@ export default class Projects extends Component {
                 Matrix Quiz 
               </CardTitle>
               <CardText> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  
+                Built a quiz application to test a user’s knowledge of the Matrix Films. Tech:  jQuery, HTML, CSS, REST API.  
               </CardText>
               <CardActions border>
                 <Button colored > GitHub </Button>
@@ -101,7 +136,7 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-          </div> 
+        
         </div>
       )
     }
@@ -121,13 +156,17 @@ export default class Projects extends Component {
             
           <Tab style={{color:"#fff"}}> jQuery </Tab>
         </Tabs>
-          <Grid>
-            <Cell col={12}>
-              <div className="content">
-                {this.toggleCategories()}  
-              </div>
-            </Cell>
-          </Grid>
+          
+            <Grid >
+              <Cell col={12}
+              
+              >
+                <div className="content">
+                  {this.toggleCategories()}  
+                </div>
+              </Cell>
+            </Grid>
+          
       </div>
     )
   }

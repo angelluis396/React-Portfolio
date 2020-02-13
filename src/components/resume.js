@@ -26,12 +26,11 @@ export default class Resume extends Component {
 
             <hr style={{borderTop: '3px solid white'}} />
             <div className="contact-info">
-              <h5> Address</h5>
-                <p className="user-info"> 1 HAcker Way</p>
+              <h5> City</h5>
+                <p className="user-info"> Lawrenceville, New Jersey </p>
               <h5> Email </h5>
-                <p className="user-info"> blah@aol.com</p>
-              <h5> Web </h5>
-                <p className="user-info"> www.hi.com</p>
+                <p className="user-info"> ala31996@gmail.com </p>
+                <a href="https://docs.google.com/document/d/17F-g3AdyceOmDp5YTiVo0L0lCvoPHyLNX5JCXZbVyX0/edit?usp=sharing"><h5> Link to Professional Resume </h5></a>
             </div>  
           </Cell>
           <Cell 
@@ -48,31 +47,79 @@ export default class Resume extends Component {
                 startYear={2019}
                 endYear={2020}
                 schoolName="THINKFUL"
-                schoolDescription="Engineering Immersion"
+                degreeDesc="Engineering Immersion"
+                schoolDescription={<ul>
+                  <li> 
+                    Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.
+                  </li> 
+                  <li> 
+                    Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures.
+                  </li>
+                </ul>}
+                
               />
               <Education 
                 startYear={2014}
                 endYear={2018}
                 schoolName="Rider University"
-                schoolDescription="Bachelor's Degree in Criminal Justice"
+                degreeDesc="Bachelor's Degree in Criminal Justice with a concentration in Law."
+                schoolDescription={<ul>
+                  <li> 
+                    Member of Tau Kappa Epsilon
+                  </li> 
+                  <li>
+                    Served as Risk Manager on the Executive board.
+                  </li>
+                </ul>}
               />
-              <hr style={{borderTop: '3px solid white'}}/>
+            <hr style={{borderTop: '3px solid white'}}/>
+              <h2> Technical Skills </h2>
+                  <ul className="tech-skills-ul"> 
+                    <h3> Front-End: </h3> 
+                      <li className="tech-skils-li"> React </li>
+                      <li className="tech-skils-li"> Vanilla JavaScript </li>
+                      <li className="tech-skils-li"> HTML & CSS </li>
+                      <li className="tech-skils-li"> jQuery </li>
+                      <li className="tech-skils-li"> Redux </li>
+                  </ul>
+                  <ul className="tech-skills-ul">
+                    <h3> Back-End: </h3>
+                      <li className="tech-skils-li"> Node </li>
+                      <li className="tech-skils-li"> Express </li> 
+                      <li className="tech-skils-li"> PostgreSQL </li>
+                      <li className="tech-skils-li"> JSON </li>
+                      <li className="tech-skils-li"> RESTFUL API </li>
+                      <li className="tech-skils-li"> Ruby </li>
+                  </ul>
+                  <ul className="tech-skills-ul"> 
+                    <h3> Development Tools & Methods </h3>
+                      <li className="tech-skils-li"> - Git </li>
+                      <li className="tech-skils-li"> GitHub </li>
+                      <li className="tech-skils-li"> Heroku </li>
+                      <li className="tech-skils-li"> Zeit </li>
+                      <li className="tech-skils-li"> Chrome Dev. Tools </li>
+                      <li className="tech-skils-li"> DBeaver </li>
+                      <li className="tech-skils-li"> Postman </li>
+                      <li className="tech-skils-li"> Mobile Development </li>
+                      <li className="tech-skils-li"> Responsive Design </li>
+                      <li className="tech-skils-li"> React MDL </li>
+                      <li className="tech-skils-li"> WordPress </li>
+                  </ul>
+            <hr style={{borderTop: '3px solid white'}}/>
             <h2> Experience </h2>
             <Experience 
               startYear={2015}
               endYear={2019}
               jobName="Help Desk Support"
-              jobDescription="Lorem Ipsum"
-            
+              jobDescription={<ul>
+                <li>
+                  Developed and maintained the company’s wordpress website. 
+                </li>
+                <li>
+                  Provided assistance to staff members with technological issues.
+                </li>
+              </ul>}
             />
-            <Experience 
-              startYear={2015}
-              endYear={2019}
-              jobName="Help Desk Support"
-              jobDescription="Lorem Ipsum"
-            />
-            <hr style={{borderTop: '3px solid white'}}/>
-            <h2> Technical Skills </h2>
           </Cell>
         </Grid>
       </div>

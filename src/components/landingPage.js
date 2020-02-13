@@ -1,26 +1,31 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { Grid, Cell, Card, CardTitle, CardActions,CardText, Button  } from "react-mdl";
+import circleCropped from '../Images/circleCropped.png'
 import "../App.css"
 
 export default class LandingPage extends Component {
   render() {
     return (
       <div className="container">
-        <Grid className="landing-grid">
-          <Cell col={12}>
+        <Grid className="landing-grid" style={{width: "auto"}}>
+          <Cell 
+            col={12}
+            style={{
+              justifyContent:"center",
+              margin: "0"
+            }}>
             <img
-              src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"
+              src={circleCropped}
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1 >Full Stack Web Developer </h1>
+              <h1 className="role-title">Full Stack Web Developer </h1>
               <hr />
               <p className="summary">
                 {" "}
-                Hi I'm Angel Alicea, I'm a Full-Stack Developer with a passion
-                for UI and Fitness!{" "}
+                Highly motivated Full-Stack Web Developer with a passion for UI and UX. I pride myself on my work ethic and willingness to do whatever is necessary to accomplish a goal I’ve set for myself. One of the most beautiful things about life is that every day is an opportunity to learn and take steps towards achieving your life long goals!{" "}
               </p>
               <p>
                 {" "}
@@ -51,13 +56,25 @@ export default class LandingPage extends Component {
             </div>
           </Cell>
           <div className="projects-container">
-            <Cell className="projects-right-col" align={"middle"} col={12}>
+            <Cell className="projects-right-col" 
+              
+              col={12}
+              style={{
+                justifyContent:"center",
+                margin: "0"
+              }}>
             <h1> Recent Projects </h1>
-            <p className="take-a-look"><Link to="/projects"> Take a look at All my Projects</Link></p>
+            <p className="take-a-look"><Link to="/projects"> Link to all Projects</Link></p>
             <div className="card-container">
                 <Card
                   shadow={0}
-                  style={{ width: "auto", height: "320px", margin: "auto"}}
+                  style={{ 
+                    width: "auto", 
+                    height: "320px",
+                    marginBottom: "15px", 
+                    marginLeft:"15%", 
+                    marginRight: "15%"
+                  }}
                 >
                   <CardTitle
                     expand
@@ -67,14 +84,15 @@ export default class LandingPage extends Component {
                         "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
                     }}
                   >
-                    Update
+                    Fitpad
                   </CardTitle>
-                  <CardText>
+                  <CardText style={{padding:"10px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
                     convallis.
                   </CardText>
                   <CardActions border>
-                    <Button colored>View Updates</Button>
+                    <Button colored>GitHub</Button>
+                    <Button colored>Live Demo</Button>
                   </CardActions>
                 </Card>
                 <Card
@@ -85,9 +103,11 @@ export default class LandingPage extends Component {
                   height: "320px", 
                   margin: "auto", 
                   marginBottom: "15px",
-                  marginRight: "6%",
+                  marginLeft: "15%", 
+                  marginRight: "15%",
                   width: "auto",
-                  height: "320px"}}
+                  height: "320px"
+                }}
                 >
                   <CardTitle
                     expand
@@ -97,20 +117,28 @@ export default class LandingPage extends Component {
                         "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
                     }}
                   >
-                    Update
+                    Spanish Spaced Repition
                   </CardTitle>
-                  <CardText>
+                  <CardText style={{padding:"10px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
                     convallis.
                   </CardText>
                   <CardActions border>
-                    <Button colored>View Updates</Button>
+                    <Button colored>GitHub</Button>
+                    <Button colored>Live Demo</Button>
                   </CardActions>
                 </Card>
                 <Card
                   className="card"
                   shadow={0}
-                  style={{ width: "auto", height: "320px", margin: "auto", marginBottom: "15px", marginRight: "6%" }}
+                  style={{ 
+                    width: "auto", 
+                    height: "320px", 
+                    margin: "auto", 
+                    marginBottom: "15px",
+                    marginLeft:"15%", 
+                    marginRight: "15%"
+                  }}
                 >
                   <CardTitle
                     expand
@@ -120,14 +148,15 @@ export default class LandingPage extends Component {
                         "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
                     }}
                   >
-                    Update
+                    Frenmo
                   </CardTitle>
-                  <CardText>
+                  <CardText style={{padding:"10px"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
                     convallis.
                   </CardText>
                   <CardActions border>
-                    <Button colored>View Updates</Button>
+                    <Button colored>GitHub</Button>
+                    <Button colored>Live Demo</Button>
                   </CardActions>
                 </Card>
               </div>

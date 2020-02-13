@@ -12,6 +12,12 @@ a {
 a:hover {
   color: #9d50bb;
 }
+u {
+  color:#fff;
+}
+.role-title {
+  padding: 15px;
+}
 .header {
   background: #c31432;
   background: -webkit-linear-gradient(to right, #c31432, #240b36);
@@ -26,7 +32,8 @@ a:hover {
   margin: auto;
 }
 .user-info {
-  color: #fff;
+  color: #fff;;
+  padding-left: 15px;
 }
 .projects-container {
   width: 100%;
@@ -195,6 +202,11 @@ a:hover {
 .resume-container {
   background: black;
 }
+li.tech-skils-li {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 30px;
+}
 
 /* About Me Page Styles */
 @media only screen 
@@ -269,7 +281,12 @@ and (max-device-width : 568px) {
   
  .projects-container {
    display: flex;
-   
+ }
+ .mdl-card.mdl-shadow--16dp.ca {
+    height: 320px;
+    margin-bottom: 15px; 
+    margin-left:15%; 
+    margin-right: 15%;
  }
   h2 { 
     text-align: center;
