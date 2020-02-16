@@ -114,7 +114,7 @@ export default class Resume extends Component {
               jobName="Help Desk Support"
               jobDescription={<ul>
                 <li>
-                  Developed and maintained the company’s wordpress website. 
+                  Developed and maintained the company’s wordpress website, as well as utilized the wordpress code editor to make changes to the front-end and back-end.
                 </li>
                 <li>
                   Provided assistance to staff members with technological issues.
