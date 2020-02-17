@@ -26,7 +26,7 @@ export default class Projects extends Component {
                 Fitpad 
               </CardTitle>
               <CardText> 
-                Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. Tech:  React.js, JSON, Node.js, PostgreSQL, Express, CSS.
+                Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. The technologies used to build this application include React, JSON, Node, PostgreSQL, Express, and CSS.
               </CardText>
               <CardActions border>
                  <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
@@ -56,7 +56,7 @@ export default class Projects extends Component {
                 Spanish Spaced Repitition 
               </CardTitle>
               <CardText> 
-                Built 
+                Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL. 
               </CardText>
               <CardActions border>
                 <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
@@ -85,11 +85,11 @@ export default class Projects extends Component {
                 SuperHumans 
               </CardTitle>
               <CardText> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Developed and designed this application to allow users to be able to search for their favorite super hero or super villain and display intresting facts about them. The technologies utilized to create this application included React, CSS and REST API's.
               </CardText>
               <CardActions border>
-                <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
-                <Button colored > Live Demo </Button>
+                <a href="https://github.com/aliceaa396/SuperHumans-API" target="_blank"><Button colored > GitHub </Button></a>
+                <a href="https://superhumans-app.ala31996.now.sh/" target="_blank"> <Button colored > Live Demo </Button> </a>
               </CardActions>
               <CardMenu style={{
                 color: '#fff'
@@ -113,7 +113,7 @@ export default class Projects extends Component {
                 Frenmo
               </CardTitle>
               <CardText> 
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Coming Soon!
               </CardText>
               <CardActions border>
                 <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
@@ -152,8 +152,8 @@ export default class Projects extends Component {
                 Designed and developed a bookmarking application that keeps track of your favorite websites.Tech:  jQuery, HTML, CSS, REST API.
               </CardText>
               <CardActions border>
-                <Button colored > GitHub </Button>
-                <Button colored > Live Demo </Button>
+                <a href="https://github.com/thinkful-ei-iguana/Angel_Bookmarks_App" target="_blank"><Button colored > GitHub </Button></a>
+                <a href="https://thinkful-ei-iguana.github.io/Angel_Bookmarks_App/" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu 
                 style={{
@@ -183,8 +183,8 @@ export default class Projects extends Component {
                 Built a quiz application to test a user’s knowledge of the Matrix Films. Tech:  jQuery, HTML, CSS, REST API.  
               </CardText>
               <CardActions border>
-                <Button colored > GitHub </Button>
-                <Button colored > Live Demo </Button>
+                <a href="https://github.com/aliceaa396/Mason_Angel_Quiz_App" target="_blank"><Button colored > GitHub </Button></a>
+                <a href="https://thinkful-ei-iguana.github.io/Mason_Angel_Quiz_App/" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu 
                 style={{
