@@ -51,7 +51,7 @@ export default class Projects extends Component {
                 style={{
                   color: '#fff', 
                   height: '176px', 
-                  background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
+                  background:'url(../Images/spanishspacedreps.PNG) center/cover'
                 }}>
                 Spanish Spaced Repitition 
               </CardTitle>
@@ -85,7 +85,7 @@ export default class Projects extends Component {
                 SuperHumans 
               </CardTitle>
               <CardText> 
-                Developed and designed this application to allow users to be able to search for their favorite super hero or super villain and display intresting facts about them. The technologies utilized to create this application included React, CSS and REST API's.
+                Developed and designed this application to allow users to be able to search for their favorite super hero or super villain and display intresting facts about them. The technologies utilized to create this application include React, CSS and REST API's.
               </CardText>
               <CardActions border>
                 <a href="https://github.com/aliceaa396/SuperHumans-API" target="_blank"><Button colored > GitHub </Button></a>
