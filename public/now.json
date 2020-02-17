@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias" : "angels-react-portfolio-react-portfolio",
   "name": "react-portfolio",
   "routes": [
       { "handle": "filesystem" },
