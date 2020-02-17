@@ -51,7 +51,7 @@ export default class Projects extends Component {
                 style={{
                   color: '#fff', 
                   height: '176px', 
-                  background:'url(../Images/spanishspacedreps.PNG) center/cover'
+                  background:'url(https://i.ibb.co/mCKMZRr/sharkmarks-SS.png) center/cover'
                 }}>
                 Spanish Spaced Repitition 
               </CardTitle>
