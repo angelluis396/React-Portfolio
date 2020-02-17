@@ -60,7 +60,7 @@ export default class Projects extends Component {
               </CardText>
               <CardActions border>
                 <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
-                <a href="https://spaced-repetition-ten.now.sh/register" target="_blank"><Button colored > Live Demo </Button></a>
+                <a href="https://spaced-repetition-ten.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu 
                 style={{
