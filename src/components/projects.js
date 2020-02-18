@@ -78,7 +78,7 @@ export default class Projects extends Component {
               }}>
               <CardTitle 
                 style={{
-                  color: '#fff', 
+                  
                   height: '176px', 
                   background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
                 }}>   
@@ -143,7 +143,7 @@ export default class Projects extends Component {
                 style={{
                   color: '#fff',
                   height: '176px', 
-                  background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
+                  background:'url(https://i.ibb.co/mCKMZRr/sharkmarks-SS.png) center/cover'
                 }}
               >
                 Sharkmarks 
