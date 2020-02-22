@@ -49,9 +49,11 @@ export default class LandingPage extends Component {
                 >
                   <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
+
                 <a href="mailto: ala31996@gmail.com">
                   <i className="fa fa-envelope-square" />
                 </a>
+
               </div>
             </div>
           </Cell>
@@ -71,7 +73,7 @@ export default class LandingPage extends Component {
                   shadow={0}
                   style={{
                   height: "320px", 
-                  margin: "auto", 
+                  margin: "auto",
                   marginBottom: "15px",
                   
                 }}
@@ -80,19 +82,19 @@ export default class LandingPage extends Component {
                     expand
                     style={{
                       color: "#fff",
+                     
                       background:
-                        "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
+                        "url(https://i.ibb.co/qCJVzrm/LPF.png) center/cover"
                     }}
                   >
                     Fitpad
                   </CardTitle>
                   <CardText style={{padding:"10px"}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-                    convallis.
+                    Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. The technologies used to build this application include React, JSON, Node, PostgreSQL, Express, and CSS.
                   </CardText>
                   <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live Demo</Button>
+                    <a href="https://gist.github.com/aliceaa396/8635a80457835309a1827c9fe8e9d46e#file-capstone-i-fitpad" target="_blank"><Button colored > GitHub </Button></a>
+                    <a href="https://fitpad.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
                   </CardActions>
                 </Card>
                 <Card
@@ -100,7 +102,7 @@ export default class LandingPage extends Component {
                   shadow={0}
                   style={{
                   height: "320px", 
-                  margin: "auto", 
+                  margin: "auto",
                   marginBottom: "15px",
               
                 }}

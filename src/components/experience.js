@@ -7,7 +7,7 @@ export default class Experience extends Component {
       <div>
         <Grid>
           <Cell col={8}>
-            <h4 style={{marginTop: '0px'}}> {this.props.jobName} </h4>
+          <u><h4 style={{marginTop: '0px'}}> {this.props.jobName} </h4></u>
             <p className="user-info"> {this.props.startYear} - {this.props.endYear} </p>
             <p className="user-info"> {this.props.jobDescription} </p>
           </Cell>

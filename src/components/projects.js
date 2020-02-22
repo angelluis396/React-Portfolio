@@ -21,16 +21,16 @@ export default class Projects extends Component {
                 marginBottom: "15px"
               }}>
               <CardTitle 
-              style={{color: '#fff', height: '176px', background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'}}
+              style={{color: '#fff', height: '176px', background:'url(https://i.ibb.co/qCJVzrm/LPF.png) center/cover'}}
               >
-                Fitpad 
+                Fitpad
               </CardTitle>
               <CardText> 
                 Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. The technologies used to build this application include React, JSON, Node, PostgreSQL, Express, and CSS.
               </CardText>
               <CardActions border>
-                 <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
-                 <a href="https://spaced-repetition-ten.now.sh/register" target="_blank"><Button colored > Live Demo </Button></a>
+                 <a href="https://gist.github.com/aliceaa396/8635a80457835309a1827c9fe8e9d46e#file-capstone-i-fitpad" target="_blank"><Button colored > GitHub </Button></a>
+                 <a href="https://fitpad.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu style={{
                 color: '#fff'
@@ -51,9 +51,9 @@ export default class Projects extends Component {
                 style={{
                   color: '#fff', 
                   height: '176px', 
-                  background:'url(https://i.ibb.co/d03h8Kd/spanishspacedreps.png) center/cover'
+                  background:'url() center/cover'
                 }}>
-                Spanish Spaced Repitition 
+                 Spanish Spaced Repitition
               </CardTitle>
               <CardText> 
                 Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL. 
@@ -78,7 +78,7 @@ export default class Projects extends Component {
               }}>
               <CardTitle 
                 style={{
-                  
+                  color: '#fff',
                   height: '176px', 
                   background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
                 }}>   
@@ -114,6 +114,8 @@ export default class Projects extends Component {
               </CardTitle>
               <CardText> 
                 Coming Soon!
+                Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
+
               </CardText>
               <CardActions border>
                 <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
@@ -175,7 +177,7 @@ export default class Projects extends Component {
                 style={{
                   color: '#fff', 
                   height: '176px', 
-                  background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
+                  background:'url(https://i.ibb.co/KGvGWYT/matrixquiz-SS.png) center/cover'
               }}>
                 Matrix Quiz 
               </CardTitle>

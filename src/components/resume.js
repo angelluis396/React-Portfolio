@@ -54,7 +54,7 @@ export default class Resume extends Component {
                     Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.
                   </li> 
                   <li> 
-                    Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures.
+                    Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, as well as algorithms & data structures.
                   </li>
                 </ul>}
                 
@@ -76,7 +76,7 @@ export default class Resume extends Component {
             <hr style={{borderTop: '3px solid white'}}/>
               <h2 className="tech-sec-title"> Technical Skills </h2>
                   <ul style={{listStyle: "none"}} className="tech-skills-ul"> 
-                    <h3 className="tech-title"> Front-End: </h3> 
+                  <u><h3 className="tech-title"> Front-End: </h3></u>
                       <li className="tech-skils-li"> React </li>
                       <li className="tech-skils-li"> Vanilla JavaScript </li>
                       <li className="tech-skils-li"> HTML & CSS </li>
@@ -84,7 +84,7 @@ export default class Resume extends Component {
                       <li className="tech-skils-li"> Redux </li>
                   </ul>
                   <ul style={{listStyle: "none"}} className="tech-skills-ul">
-                    <h3 className="tech-title"> Back-End: </h3>
+                  <u><h3 className="tech-title"> Back-End: </h3></u>
                       <li className="tech-skils-li"> Node </li>
                       <li className="tech-skils-li"> Express </li> 
                       <li className="tech-skils-li"> PostgreSQL </li>
@@ -93,7 +93,7 @@ export default class Resume extends Component {
                       <li className="tech-skils-li"> Ruby </li>
                   </ul>
                   <ul style={{listStyle: "none"}} className="tech-skills-ul"> 
-                    <h3 className="tech-title"> Development Tools & Methods: </h3>
+                    <u><h3 className="tech-title"> Development Tools & Methods: </h3></u>
                       <li className="tech-skils-li"> Git </li>
                       <li className="tech-skils-li"> GitHub </li>
                       <li className="tech-skils-li"> Heroku </li>

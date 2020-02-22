@@ -123,72 +123,15 @@ u {
 .project-right-col {
   padding: 2em;
 }
-/* .card-lesson {
-  margin: 10px;
-  min-width: 200px;
-  min-height: 100px;
-} */
-/* .card-lesson > .mdl-card__actions {
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-} */
-/* .card-lesson > .mdl-card__title {
-  align-items: flex-start;
-} */
-/* .card-lesson > .mdl-card__title > h4 {
-  margin-top: 0;
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
 }
-.card-lesson > .mdl-card__title, .card-lesson > .mdl-card__supporting-text, .card-lesson > .mdl-card__actions, .card-lesson > .mdl-card__actions > .mdl-button {
-  color: #fff;
-  
-} */
 
-
-/* Contact Page Styles */
-  .contact-body {
-    margin: auto;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 2em;
-  }
-  .contact-grid {
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 550px;
-    background: white;
-    color: black;
-    margin-bottom: 20px;
-    border: 2px solid red;
-  }
-
-  /* .contact-grid p {
-
-  } */
-
-  .contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-  }
-
-  .contact-list i {
-    font-size: 66px;
-    padding-right: 5rem;
-  }
-
-  .avatar-img {
-    height: 250px;
-    padding-top: 5em;
-  }
-
-  hr {
-    width: 50%
-  }
-
+hr {
+  width: 50%
+}
 
 /* Resume Page Styles */
 .resume-right-col {
@@ -210,6 +153,21 @@ li.tech-skils-li {
 }
 p.user-info-year {
   color: #fff;
+}
+
+/* About me Styles */
+h2.qoute {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+}
+.about-me-container {
+  margin-top: 10%;
+  margin-right: 13%;
+  margin-left:13%;
+  background: black;
+  border-radius:5px;
 }
 
 
@@ -354,5 +312,22 @@ and (max-device-width : 568px) {
   p.user-info-year {
     text-align: center;
     color: #fff;
+  }
+  h2.qoute {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .about-me-container {
+    margin: 0;
+    margin-left:0;
+    background: black;
+    border-radius: 0;;
+  }
+  .social-links {
+    height: auto;
+    width: auto;
+    text-align: center;
   }
 }
