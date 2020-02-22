@@ -82,7 +82,7 @@ export default class LandingPage extends Component {
                     expand
                     style={{
                       color: "#fff",
-                     
+                      textShadow: "grey 10px 0px 8px ",
                       background:
                         "url(https://i.ibb.co/qCJVzrm/LPF.png) center/cover"
                     }}
@@ -111,8 +111,8 @@ export default class LandingPage extends Component {
                     expand
                     style={{
                       color: "#fff",
-                      background:
-                        "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
+                      textShadow: "grey 10px 0px 8px ",
+                      background:'url(https://i.ibb.co/X4KJvrx/SSRH.png) center/cover'
                     }}
                   >
                     Spanish Spaced Repition
@@ -122,8 +122,8 @@ export default class LandingPage extends Component {
                     convallis.
                   </CardText>
                   <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live Demo</Button>
+                    <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
+                    <a href="https://spaced-repetition-ten.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
                   </CardActions>
                 </Card>
                 <Card

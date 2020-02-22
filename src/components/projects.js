@@ -49,9 +49,10 @@ export default class Projects extends Component {
             }}>
               <CardTitle 
                 style={{
-                  color: '#fff', 
+                  color: '#fff',
+                  textShadow: "grey 10px 0px 8px ", 
                   height: '176px', 
-                  background:'url() center/cover'
+                  background:'url(https://i.ibb.co/X4KJvrx/SSRH.png) center/cover'
                 }}>
                  Spanish Spaced Repitition
               </CardTitle>
