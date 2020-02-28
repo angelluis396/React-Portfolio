@@ -17,9 +17,8 @@ export default class AboutMe extends Component {
             className="resume-right-col" 
             col={8} 
             style={{
-              background: "#9d50bb",
-              background: "background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa)",
-              background: "linear-gradient(to right, #9d50bb, #6e48aa)",
+              background: "#c31432",
+             
               borderRadius: "5px"
             }}>
             <div 

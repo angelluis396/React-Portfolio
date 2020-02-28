@@ -82,9 +82,8 @@ export default class LandingPage extends Component {
                     expand
                     style={{
                       color: "#fff",
-                      textShadow: "grey 10px 0px 8px ",
                       background:
-                        "url(https://i.ibb.co/qCJVzrm/LPF.png) center/cover"
+                        "url(https://i.ibb.co/T1BdnS4/llr.png) center/cover"
                     }}
                   >
                     Fitpad
@@ -111,15 +110,13 @@ export default class LandingPage extends Component {
                     expand
                     style={{
                       color: "#fff",
-                      textShadow: "grey 10px 0px 8px ",
-                      background:'url(https://i.ibb.co/X4KJvrx/SSRH.png) center/cover'
+                      background:'url(https://i.ibb.co/7GhKfQ0/ssr.png) center/cover'
                     }}
                   >
-                    Spanish Spaced Repition
+                    Spanish Spaced Repetition
                   </CardTitle>
                   <CardText style={{padding:"10px"}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-                    convallis.
+                    Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
                   </CardText>
                   <CardActions border>
                     <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
@@ -141,18 +138,17 @@ export default class LandingPage extends Component {
                     style={{
                       color: "#fff",
                       background:
-                        "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
+                        "url(https://i.ibb.co/DWDdv6p/Untitled.png) bottom right 15% no-repeat #46B6AC"
                     }}
                   >
                     Frenmo
                   </CardTitle>
                   <CardText style={{padding:"10px"}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-                    convallis.
+                    Coming Soon! Developing a Full-Stack application that allows users to send virtual coupons to friends and family. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
                   </CardText>
                   <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live Demo</Button>
+                    <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
+                    <a href="https://frenmo.now.sh/login" target="_blank"><Button colored > Live Demo </Button></a>
                   </CardActions>
                 </Card>
               </div>

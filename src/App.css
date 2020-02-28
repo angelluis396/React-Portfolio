@@ -116,6 +116,8 @@ u {
 /* Projects Styles */
 .projects-grid {
   display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .projects-box {
   display: flex;
@@ -245,6 +247,10 @@ and (max-device-width : 568px) {
   }
  .projects-container {
    display: flex;
+ }
+ div.mdl-cell.mdl-cell--12-col {
+   display: flex;
+   justify-content: center;
  }
  .mdl-card.mdl-shadow--16dp.ca {
     height: 320px;

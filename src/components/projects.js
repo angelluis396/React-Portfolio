@@ -17,11 +17,16 @@ export default class Projects extends Component {
             <Card classname="projects-card" shadow={5} 
               style={{
                 minWidth:'450', 
-                margin:'auto',
-                marginBottom: "15px"
+                margin:'10px',
+                marginBottom: "15px",
+                maxHeight: "auto"
               }}>
               <CardTitle 
-              style={{color: '#fff', height: '176px', background:'url(https://i.ibb.co/qCJVzrm/LPF.png) center/cover'}}
+              style={{
+                color: '#fff', 
+                height: '176px', 
+                background:'url(https://i.ibb.co/T1BdnS4/llr.png) center/cover'
+              }}
               >
                 Fitpad
               </CardTitle>
@@ -41,18 +46,18 @@ export default class Projects extends Component {
           
           {/* Project 2 */}
 
-          <Card shadow={5} 
+          <Card classname="projects-card" shadow={5} 
             style={{
               minWidth:'450',
-              margin:'auto',
-              marginBottom: "15px"
+              margin:'10px',
+              marginBottom: "15px",
+              maxHeight: "auto"
             }}>
               <CardTitle 
                 style={{
                   color: '#fff',
-                  textShadow: "grey 10px 0px 8px ", 
                   height: '176px', 
-                  background:'url(https://i.ibb.co/X4KJvrx/SSRH.png) center/cover'
+                  background:'url(https://i.ibb.co/7GhKfQ0/ssr.png) black center/cover'
                 }}>
                  Spanish Spaced Repitition
               </CardTitle>
@@ -71,11 +76,12 @@ export default class Projects extends Component {
               </CardMenu>
             </Card>
             {/* Project 3 */}
-            <Card shadow={5} 
+            <Card classname="projects-card" shadow={5} 
               style={{
                 minWidth:'450', 
-                margin:'auto',
-                marginBottom: "15px"
+                margin:'10px',
+                marginBottom: "15px",
+                maxHeight: "auto"
               }}>
               <CardTitle 
                 style={{
@@ -99,31 +105,31 @@ export default class Projects extends Component {
               </CardMenu>
             </Card>
             {/* Project 4 */}
-            <Card shadow={5} 
+            <Card classname="projects-card" shadow={5} 
               style={{
                 minWidth:'450', 
-                margin:'auto',
-                marginBottom: '15px'
+                margin:'10px',
+                marginBottom: '15px',
+                maxHeight: "auto"
               }}>
               <CardTitle 
                 style={{
                   color: '#fff', 
                   height: '176px', 
-                  background:'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center/cover'
+                  background:'url(https://i.ibb.co/DWDdv6p/Untitled.png) center/cover'
               }}>
                 Frenmo
               </CardTitle>
               <CardText> 
                 Coming Soon!
-                Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
-
+                Developing a Full-Stack application that allows users to send virtual coupons to friends and family. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
               </CardText>
               <CardActions border>
                 <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
-                <a href="https://spaced-repetition-ten.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
+                <a href="https://frenmo.now.sh/login" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu style={{
-                color: '#fff'
+                color: 'black'
               }}>
                 <IconButton name="share" />
               </CardMenu>
@@ -136,11 +142,12 @@ export default class Projects extends Component {
       return (
         <div className="projects-grid">
           
-            <Card shadow={5} 
+            <Card classname="projects-card" shadow={5} 
               style={{
                 minWidth:'450', 
-                margin:'auto',
-                marginBottom: "15px"
+                margin:'10px',
+                marginBottom: '15px',
+                maxHeight: "400px"
               }}>
               <CardTitle 
                 style={{
@@ -168,11 +175,12 @@ export default class Projects extends Component {
               </CardMenu>
             </Card>
         
-            <Card shadow={5} 
+            <Card classname="projects-card" shadow={5} 
               style={{
                 minWidth:'450', 
-                margin:'auto',
-                marginBottom: "15px"
+                margin:'10px',
+                marginBottom: '15px',
+                maxHeight: "400px"
               }}>
               <CardTitle 
                 style={{
