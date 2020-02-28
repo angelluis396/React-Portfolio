@@ -125,7 +125,7 @@ export default class Projects extends Component {
                 Developing a Full-Stack application that allows users to send virtual coupons to friends and family. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
               </CardText>
               <CardActions border>
-                <a href="https://github.com/aliceaa396" target="_blank"><Button colored > GitHub </Button></a>
+                <a href="https://gist.github.com/aliceaa396/9bc42fbfbb49f381e0314b9e0a8df4fe" target="_blank"><Button colored > GitHub </Button></a>
                 <a href="https://frenmo.now.sh/login" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu style={{
