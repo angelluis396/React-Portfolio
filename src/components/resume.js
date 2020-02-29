@@ -21,7 +21,7 @@ export default class Resume extends Component {
             <h4 style={{color: 'white'}}> Full-Stack Web Developer </h4>
             <hr style={{borderTop: '3px solid white'}} />
             <p className="prof-summary"> 
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Highly motivated Full-Stack Web Developer with a passion for UI and UX. I pride myself on my work ethic and willingness to do whatever is necessary to accomplish a goal I’ve set for myself. One of the most beautiful things about life is that every day is an opportunity to learn and take steps towards achieving your life long goals! What I may lack in years of experience, I more than makeup for with undying work ethic and tenacity to do my absolute best.
             </p>
             
 
