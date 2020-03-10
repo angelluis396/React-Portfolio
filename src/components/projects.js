@@ -121,8 +121,7 @@ export default class Projects extends Component {
                 Frenmo
               </CardTitle>
               <CardText> 
-                Coming Soon!
-                Developing a Full-Stack application that allows users to send virtual coupons to friends and family. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL.
+                Acted a project manager on a team of five developers led by one senior developer. Contributed to the development of the front-end of this Full-Stack application which allows users to send virtual coupons to friends and family. The technologies used to build this application include React, Sass, Node, as well as PostgreSQL.
               </CardText>
               <CardActions border>
                 <a href="https://gist.github.com/aliceaa396/9bc42fbfbb49f381e0314b9e0a8df4fe" target="_blank"><Button colored > GitHub </Button></a>
