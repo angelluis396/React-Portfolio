@@ -111,15 +111,32 @@ export default class Resume extends Component {
             <Experience 
               startYear={2015}
               endYear={2019}
-              jobName="Help Desk Support"
-              jobDescription={<ul>
-                <li>
-                  Developed and maintained the company’s wordpress website, as well as utilized the wordpress code editor to make changes to the front-end and back-end.
-                </li>
-                <li>
-                  Provided assistance to staff members with technological issues.
-                </li>
-              </ul>}
+              jobName="Help Desk Support/ Web Developer"
+              jobDescription={
+                <ul>
+                  <li>
+                    Developed and maintained the company’s wordpress website, as well as utilized the wordpress code editor to make changes to the front-end and back-end.
+                  </li>
+                  <li>
+                    Provided assistance to staff members with technological issues.
+                  </li>
+                </ul>
+              }
+            />
+            <Experience 
+              startYear={2019}
+              endYear={2019}
+              jobName="Canvas Course Web Developer"
+              jobDescription={
+                <ul>
+                  <li>
+                    Designed and structured Canvas courses for professors.
+                  </li>
+                  <li>
+                    Collaborated with IT department in the utilization of an advanced code editor to visually enhance faculty's content with HTML and CSS.
+                  </li>
+                </ul>
+              }
             />
           </Cell>
         </Grid>
