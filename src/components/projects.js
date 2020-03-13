@@ -31,7 +31,7 @@ export default class Projects extends Component {
                 Fitpad
               </CardTitle>
               <CardText> 
-                Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. The technologies used to build this application include React, JSON, Node, PostgreSQL, Express, and CSS.
+                Developed, tested and designed a Full-Stack application to effortlessly keep track of your weight lifting sessions. The homepage lists the users previously logged exercises. The add a workout page allows users to select a muscle from a drop-down menu which filters the exercises shown on another drop-down menu below it. The technologies used to build this application include React, JSON, Node, PostgreSQL, Express, and CSS.
               </CardText>
               <CardActions border>
                  <a href="https://gist.github.com/aliceaa396/8635a80457835309a1827c9fe8e9d46e#file-capstone-i-fitpad" target="_blank"><Button colored > GitHub </Button></a>
@@ -48,10 +48,10 @@ export default class Projects extends Component {
 
           <Card classname="projects-card" shadow={5} 
             style={{
-              minWidth:'450',
+              minWidth:'450', 
               margin:'10px',
               marginBottom: "15px",
-              maxHeight: "auto"
+              
             }}>
               <CardTitle 
                 style={{
@@ -62,7 +62,7 @@ export default class Projects extends Component {
                  Spanish Spaced Repitition
               </CardTitle>
               <CardText> 
-                Designed and developed a Full-Stack application that utilizes spaced repetition to teach users a new language. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL. 
+                Designed, developed and tested a Full-Stack application that utilizes spaced repetition to teach users a new language. The user homepage features flashcards with the words a user will be tested on, as well as a link to the quiz. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL. 
               </CardText>
               <CardActions border>
                 <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
@@ -92,7 +92,7 @@ export default class Projects extends Component {
                 SuperHumans 
               </CardTitle>
               <CardText> 
-                Developed and designed this application to allow users to be able to search for their favorite super hero or super villain and display intresting facts about them. The technologies utilized to create this application include React, CSS and REST API's.
+                Developed and designed this application to allow users to be able to search for their favorite superhero or supervillain. The application displays interesting facts about the superhuman searched for. The technologies utilized to create this application include React, CSS and REST API's.
               </CardText>
               <CardActions border>
                 <a href="https://github.com/aliceaa396/SuperHumans-API" target="_blank"><Button colored > GitHub </Button></a>
@@ -109,7 +109,7 @@ export default class Projects extends Component {
               style={{
                 minWidth:'450', 
                 margin:'10px',
-                marginBottom: '15px',
+                marginBottom: "15px",
                 maxHeight: "auto"
               }}>
               <CardTitle 
@@ -121,7 +121,7 @@ export default class Projects extends Component {
                 Frenmo
               </CardTitle>
               <CardText> 
-                Acted a project manager on a team of five developers led by one senior developer. Contributed to the development of the front-end of this Full-Stack application which allows users to send virtual coupons to friends and family. The technologies used to build this application include React, Sass, Node, as well as PostgreSQL.
+                Acted as project manager on a team of five developers led by one senior developer. Contributed to the development of the front-end of this Full-Stack application which allows users to send virtual coupons to friends and family. The technologies used to build this application include React, Sass, Node, as well as PostgreSQL.
               </CardText>
               <CardActions border>
                 <a href="https://gist.github.com/aliceaa396/9bc42fbfbb49f381e0314b9e0a8df4fe" target="_blank"><Button colored > GitHub </Button></a>
@@ -145,8 +145,8 @@ export default class Projects extends Component {
               style={{
                 minWidth:'450', 
                 margin:'10px',
-                marginBottom: '15px',
-                maxHeight: "400px"
+                marginBottom: "15px",
+                maxHeight: "auto"
               }}>
               <CardTitle 
                 style={{
@@ -178,8 +178,8 @@ export default class Projects extends Component {
               style={{
                 minWidth:'450', 
                 margin:'10px',
-                marginBottom: '15px',
-                maxHeight: "400px"
+                marginBottom: "15px",
+                maxHeight: "auto"
               }}>
               <CardTitle 
                 style={{
@@ -228,6 +228,7 @@ export default class Projects extends Component {
             <Grid style={{width: "auto"}}>
               <Cell col={12}
                 style={{
+                  display: "flex", 
                   justifyContent:"center",
                   
                 }}>

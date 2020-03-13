@@ -6,7 +6,7 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div className="about-me-container">
-        <Grid> 
+        <Grid style={{marginBottom: "25px"}}> 
           <Cell col={4}>         
             <h2 className="qoute"> 
               "Hard work beats talent, when talent refuses to work hard..."

@@ -21,9 +21,11 @@ export default class Resume extends Component {
             <h4 style={{color: 'white'}}> Full-Stack Web Developer </h4>
             <hr style={{borderTop: '3px solid white'}} />
             <p className="prof-summary"> 
-              Highly motivated Full-Stack Web Developer with a passion for UI and UX. I pride myself on my work ethic and willingness to do whatever is necessary to accomplish a goal I’ve set for myself. One of the most beautiful things about life is that every day is an opportunity to learn and take steps towards achieving your life long goals! What I may lack in years of experience, I more than makeup for with undying work ethic and tenacity to do my absolute best.
+              Highly motivated Full-Stack Web Developer with a passion for UI and UX. I pride myself on my work ethic and willingness to do whatever is necessary to accomplish a goal I’ve set for myself. 
             </p>
-            
+            <p className="prof-summary">
+              One of the most beautiful things about life is that every day is an opportunity to learn and take steps towards achieving your life long goals! What I may lack in years of experience, I more than makeup for with undying work ethic and tenacity to do my absolute best.
+            </p>
 
             <hr style={{borderTop: '3px solid white'}} />
             <div className="contact-info">

@@ -130,7 +130,7 @@ h2.landingPageTitle {
 .project-right-col {
   padding: 2em;
 }
-
+ 
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -147,10 +147,10 @@ hr {
   padding: 2em;
 }
 .prof-summary {
-  color: #fff;
+  color: white;
 }
 .resume-container {
-  background: black;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 li.tech-skils-li {
