@@ -65,7 +65,7 @@ export default class Projects extends Component {
                 Designed, developed and tested a Full-Stack application that utilizes spaced repetition to teach users a new language. The user homepage features flashcards with the words a user will be tested on, as well as a link to the quiz. The technologies used to build this application include React, CSS, Node, as well as PostgreSQL. 
               </CardText>
               <CardActions border>
-                <a href="https://github.com/thinkful-ei-iguana/Jack-Angel-Capstone-II-Frontend" target="_blank"><Button colored > GitHub </Button></a>
+                <a href="https://gist.github.com/aliceaa396/1e9dda5488c45506a1555d4ef3f21134" target="_blank"><Button colored > GitHub </Button></a>
                 <a href="https://spaced-repetition-ten.now.sh/" target="_blank"><Button colored > Live Demo </Button></a>
               </CardActions>
               <CardMenu 
